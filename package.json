@@ -1,0 +1,20 @@
+{
+  "name": "SimpleProjectNodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crisyg97/SimpleProjectNodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crisyg97/SimpleProjectNodejs/issues"
+  },
+  "homepage": "https://github.com/crisyg97/SimpleProjectNodejs#readme"
+}
