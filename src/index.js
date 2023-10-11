@@ -10,11 +10,11 @@ const __dirname = dirname(fileURLToPath(import.meta.url)) //ruta absoluta de src
 
 const app = express()
 
-app.set(__dirname,"/views",) //indico donde esta la carpeta de las vistas
+app.set("views", __dirname +"/views");//indico donde esta la carpeta de las vistas
 app.set("view engine","ejs")
 app.use(router)
 
-app.use(express.static(__dirname,'/public',))
+app.use(express.static(__dirname + '/public'))
 
 app.listen(3000)
 console.log("server is listening on port", 3000)
